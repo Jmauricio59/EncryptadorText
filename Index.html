@@ -1,13 +1,4 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - A Pen by Jaime Mauricio Cruz Castañeda</title>
-  <link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -21,23 +12,19 @@
     <h1>Encriptador de Texto</h1>
     <textarea id="inputText" placeholder="Ingresa el texto aquí..."></textarea>
     <div class="alert-message" id="alertMessage">No se aceptan mayúsculas ni caracteres especiales.
-    <span class="material-icons caution-icon">warning</span> <!-- Icono de válido -->
+     <span class="material-icons caution-icon">warning</span> <!-- Icono de válido -->
     </div>
     <button class="encrypt" onclick="encryptText()">Cifrar</button>
     <button class="decrypt" 
-            onclick="decryptText()" >Descifrar</button>
+            onclick="decryptText()">Descifrar</button>
     <div class="output" id="outputText">
         <p id="outputMessage">Ningún mensaje fue encriptado</p>
         <p id="outputSubMessage">Ingresa el texto que desees encriptar o desencriptar.</p>
         <img src="https://static.semrush.com/blog/uploads/media/c9/71/c97110e5999e24b71bbdde16fcb6578b/how-to-search-a-website-for-keywords.svg">
     </div>
-    <div class="caution-text">
+    <div class="valid-icon">
     </div>
-    <script src="script.js"></script>
-</body>
-</html>
-<!-- partial -->
-  <script  src="./script.js"></script>
 
+    <script src="script.js"></script>
 </body>
 </html>
