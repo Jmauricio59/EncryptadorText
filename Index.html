@@ -1,0 +1,29 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+    <h1>Encriptador de Texto</h1>
+    <textarea id="inputText" placeholder="Ingresa el texto aquí..."></textarea>
+    <div class="alert-message" id="alertMessage">No se aceptan mayúsculas ni caracteres especiales.
+     <span class="material-icons caution-icon">warning</span> <!-- Icono de válido -->
+    </div>
+    <button class="encrypt" onclick="encryptText()">Cifrar</button>
+    <button class="decrypt" 
+            onclick="decryptText()">Descifrar</button>
+    <div class="output" id="outputText">
+        <p id="outputMessage">Ningún mensaje fue encriptado</p>
+        <p id="outputSubMessage">Ingresa el texto que desees encriptar o desencriptar.</p>
+        <img src="https://static.semrush.com/blog/uploads/media/c9/71/c97110e5999e24b71bbdde16fcb6578b/how-to-search-a-website-for-keywords.svg">
+    </div>
+    <div class="valid-icon">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+body {
+    font-family: 'Inter', sans-serif;
+    display: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 10px;
+    position: fixed;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #052051;
+}
+
+textarea {
+    font-family: Inter;
+    color: #052051;  
+    width: 1300px;
+    height: 548px;
+    margin-top: 30px;
+    margin: 10px 0;
+    padding: 80px;
+    font-size: 50px;
+    border-radius: 32px; /* Bordes redondeados */
+    border: 0px #f4f4f4;
+    background-color: #f4f4f4;
+}
+
+button {
+   
+    padding: 18px 229px;
+    margin: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 32px; /* Bordes redondeados */
+    border: none;
+    background-color: #072B61;
+    color: white;
+}
+
+button.encrypt{
+  background-color: #072B61;
+}
+
+button.decrypt{
+  background-color: #ADB5BD;
+  color:#072B61;
+  border: 8px #072B61;
+}
+
+.alert-message{
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: bold;
+    color: #CED4DA; /* Gris claro para el mensaje de error */
+    margin: 20px;
+    padding: 25px;
+    display: flex;
+    margin-top: 30px;
+}
+
+
+.output {
+  font-family: Inter;
+  font-weight: bold;
+  color: #072B61;
+  font-size: 55px;
+  position: fixed; /* Fija la posición en la pantalla */
+    right: 20px; /* Ajusta la distancia desde el borde derecho */
+    top: 50%; /* Centra verticalmente */
+    transform: translateY(-50%); /* Ajusta el centrado verticalmente */
+    padding: 20px; /* Aumenta el padding para más espacio interior */
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 400px; /* Ajusta el ancho de la caja */
+    height: 744px; /*944 Ajusta la altura de la caja */
+    border-radius: 32px; /* Bordes redondeados */
+    overflow: auto; /* Permite el scroll si el contenido es más grande */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 20px;
+}
+#outputMessage, #outputSubMessage {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#outputSubMessage {
+    font-size: 17px; /* Tamaño de fuente del submensaje */
+    color: #666; /* Color del submensaje */
+    margin-top: 30px;
+}
